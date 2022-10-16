@@ -1,12 +1,94 @@
+/*SEMÁFORO*/
+.stick{
+    height: 100px;
+    width: 50px;
+    background-color: black;
+    margin: auto;
+    border: solid rgb(35, 35, 35);
+}
 
-/* 
+.traffic-light {
+    background-color: black;
+    width: 200px;
+    border-radius: 5%;
+    border: solid rgb(35, 35, 35);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+/*COLORES*/
+.red {
+    background-color: rgb(185, 1, 1);
+    border-radius: 50%;
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
-*/
+.green {
+    background-color:rgb(2, 139, 2);
+    border-radius: 50%;
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.orange {
+    background-color:rgb(199, 97, 2);
+    border-radius: 50%;
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*LUCES*/
+
+.lightRed{
+    box-shadow: 0 0 90px 20px rgb(248, 0, 0);
+    border-radius: 70%
+}
+
+.lightOrange{
+    box-shadow: 0 0 90px 20px rgb(255, 125, 4);
+    border-radius: 70%
+}
+
+.lightGreen{
+    box-shadow: 0 0 90px 20px rgb(2, 174, 2);
+    border-radius: 70%
+}
+
+
+/*BOTONES*/
+
+.change {
+    width: 150px;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 2rem;
+    border: solid black 1px;
+    background-color: rgba(0, 0, 255, 0.564);
+}
+
+.addPurple{
+    width: 150px;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: rgba(86, 1, 86, 0.715);
+    border: solid black 1px;
+}
+
+
+/*Luz y color morado*/
+
+.purple {
+    background-color:rgb(120, 2, 199);
+    border-radius: 50%;
+    padding: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lightPurple{
+    box-shadow: 0 0 90px 20px rgb(117, 2, 174);
+    border-radius: 70%
+}
