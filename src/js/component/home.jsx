@@ -2,9 +2,6 @@ import React, {useState, useEffect} from "react";
 
 const Home = () => {
 
-	useEffect(() =>{
-		handleClick
-	}, [color,morado]) 
 
 	const [color, setColor] = useState();
 
